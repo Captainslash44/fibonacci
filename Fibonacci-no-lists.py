@@ -14,7 +14,7 @@ elif n == 2:
 else:
     for i in range(n-2): # (n-2) because the first 2 numbers are already known
         total = number_one + number_two
-        answer += ","+ str(total)
+        answer += "," + str(total)
         number_one = number_two
         number_two = total
     print(answer)
